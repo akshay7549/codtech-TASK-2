@@ -20,14 +20,10 @@ This is a simple Weather Application that allows users to get the current weathe
  JavaScript (with jQuery)
  OpenWeatherMap API
 
-# Getting Started
-
 # Prerequisites
  Basic understanding of HTML, CSS, and JavaScript.
  A code editor like VS Code.
  Internet connection for fetching weather data from the API.
-
-# Installation
 
 # Clone the repository:
    git clone https://github.com/yourusername/weatherApp.git
@@ -35,7 +31,7 @@ This is a simple Weather Application that allows users to get the current weathe
   Navigate to the project directory:
     cd weatherApp
 
-    Open `index.html` in your browser to see the app in action.
+  Open index.html in your browser to see the app in action.
 
 # Usage
 
@@ -56,3 +52,6 @@ The app uses the OpenWeatherMap API to fetch weather data. Replace the placehold
 
 javascript
 const apiKey = 'f00c38e0279b7bc85480c3fe775d518c';
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
