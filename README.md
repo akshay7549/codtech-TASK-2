@@ -1,4 +1,9 @@
 # codtech-TASK-2
+* Name: Akshay Kumar
+* Company: CODTECH IT SOLUTIONS
+* ID: CT4FSWD2540
+* Domain: Web Development
+* Durations: june to july 2024
 # Weather App
 
 This is a simple Weather Application that allows users to get the current weather information for a specified city. The app fetches data from the OpenWeatherMap API and displays it on the web page.
