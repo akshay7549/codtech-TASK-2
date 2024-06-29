@@ -1,7 +1,8 @@
+This is the CSS filr of Weather forcastion Web Appliction,
 
 body {
-    font-family: 'Times new roman', sans-serif;
-    background-color: #db7a04;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://c8.alamy.com/comp/2NKXX3T/website-or-mobile-app-landing-page-sky-with-clouds-sun-rays-bursting-through-the-clouds-3d-vector-illustration-2NKXX3T.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +11,7 @@ body {
 }
 
 .container {
-
+    background-color: #060505;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,63 +19,41 @@ body {
     max-width: 400px;
 }
 
-.weather-card {
-    background-color: #000000; 
-    padding: 20px;
-    border-radius: 8px;
-    color: #ffffff; 
+h1 {
     text-align: center;
+    color: orangered;
 }
 
-.weather-card h1 {
-    color: #ffa500; 
+.input-container {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 input[type="text"] {
-    width: 100%;
+    flex: 1;
     padding: 10px;
-    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-right: 10px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #ffa500; 
-    color: #ffffff; 
+    background-color: orangered;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ff8c00; 
+    background-color: orange;
 }
 
-#weather-info {
-    display: none;
-    margin-top: 20px;
-    text-align: left;
-    background-color: #ffffff; 
-    color: #000000; 
-    padding: 20px;
-    border-radius: 8px;
+.weather-info {
+    text-align: center;
+    font-size: 18px;
+    color: #cf5606;
 }
 
-#weather-info h3 {
-    color: #ffa500; 
-    margin-bottom: 10px;
-}
-
-#weather-info p {
-    margin: 5px 0;
-}
-
-#weather-icon {
-    width: 100px;
-    height: 100px;
-}
